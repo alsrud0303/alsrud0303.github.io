@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    table {
+    border-collapse: collapse;
+    }
+
+    th {
+        text-align: center;
+        background-color: black;
+        color: white;
+    }
+
+    th, td {
+        padding: 4px;}
+
+    tr:nth-child(even) {background-color: #f2f2f2;}
+    </style>
+</head>
+<body>
+    <H1>
+        Geographic Origin of Stanford Undergrads
+    </H1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Geographic Origin</th>
+                <th>Number of Students</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>California</td>
+                <td>2,943</td>
+            </tr>
+            <tr>
+                <td>Other US</td>
+                <td>3,447</td>
+            </tr>
+            <tr>
+                <td>Asia</td>
+                <td>264</td>
+            </tr>
+            <tr>
+                <td>The Americas</td>
+                <td>83</td>
+            </tr>
+            <tr>
+                <td>Europe</td>
+                <td>69</td>
+            </tr>
+            <tr>
+                <td>Africa</td>
+                <td>44</td>
+            </tr>
+            <tr>
+                <td>Middle East and North Africa</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>Pacific Basin</td>
+                <td>6</td>
+            </tr>
+        </tbody>
+    </table>
+    <p><i>Source: Stanford Facts Website</i></p>
+</body>
+</html>
